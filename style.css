@@ -501,6 +501,7 @@ body::before {
     .sibuba-visual { height: 200px; flex: none; }
 }
 @media (max-width: 480px) {
+
     .judul-beranda {
         font-size: 28px;
     }
@@ -532,16 +533,52 @@ body::before {
     }
 
     .kartu-anggota {
-        min-width: 90%;
-        padding: 20px;
+        min-width: 95%;
+        max-width: 95%;
+        padding: 18px;
+        gap: 15px;
+        border-radius: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .wadah-foto-anggota {
+        flex: 0 0 110px;
+        width: 110px;
+    }
+
+    .foto-anggota {
+        border-radius: 12px;
     }
 
     .nama-anggota {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .deskripsi-anggota {
         font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .ikon-sosial {
+        justify-content: center;
+    }
+
+    .kartu-sibuba {
+        max-width: 300px;
+        flex-direction: column;
+    }
+
+    .sibuba-visual {
+        height: 160px;
+    }
+
+    .img-sibuba {
+        width: 60%;
+    }
+
+    .bg-putaran {
+        width: 120%;
     }
 
     .sibuba-konten {
