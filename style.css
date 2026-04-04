@@ -502,21 +502,33 @@ body::before {
 }
 @media (max-width: 480px) {
 
+    .navigasi {
+        padding: 20px;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .tautan-nav {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 70%;
+        height: 100vh;
+        background: white;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+    }
+
+    .tautan-nav.aktif {
+        right: 0;
+    }
+
     .judul-beranda {
         font-size: 28px;
-    }
-
-    .subjudul-beranda {
-        font-size: 14px;
-    }
-
-    .konten-beranda {
-        padding: 0 10px;
-    }
-
-    .judul-sub {
-        font-size: 28px;
-        text-align: center;
     }
 
     .grid-profil {
@@ -524,68 +536,59 @@ body::before {
     }
 
     .kartu-profil {
-        width: 120px;
+        width: 110px;
     }
 
     .wadah-foto {
-        width: 120px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
     }
 
     .kartu-anggota {
-        min-width: 95%;
-        max-width: 95%;
-        padding: 18px;
-        gap: 15px;
-        border-radius: 20px;
+        min-width: 80%;
+        max-width: 80%;
+        padding: 14px;
+        gap: 12px;
+        border-radius: 18px;
         flex-direction: column;
         text-align: center;
     }
 
     .wadah-foto-anggota {
-        flex: 0 0 110px;
-        width: 110px;
+        width: 90px;
     }
 
     .foto-anggota {
-        border-radius: 12px;
+        border-radius: 10px;
     }
 
     .nama-anggota {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .deskripsi-anggota {
-        font-size: 12px;
-        line-height: 1.5;
+        font-size: 11px;
     }
 
-    .ikon-sosial {
-        justify-content: center;
+    .ikon {
+        width: 26px;
+        height: 26px;
     }
 
     .kartu-sibuba {
-        max-width: 300px;
         flex-direction: column;
+        max-width: 300px;
     }
 
     .sibuba-visual {
-        height: 160px;
+        height: 150px;
     }
 
     .img-sibuba {
         width: 60%;
     }
 
-    .bg-putaran {
-        width: 120%;
-    }
-
     .sibuba-konten {
         padding: 20px;
-    }
-
-    .nama-project {
-        font-size: 22px;
     }
 }
