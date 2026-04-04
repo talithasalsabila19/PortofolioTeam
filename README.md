@@ -1,16 +1,14 @@
 # Group 6 - Creative Team
 
 ## Tentang Project
-Website ini merupakan tugas kelompok untuk mata kuliah Pemrograman Web.  
-Project ini dibuat dalam bentuk website profil kelompok yang menampilkan anggota tim, deskripsi singkat tentang masing-masing anggota, serta project utama kelompok.
-Website ini kami buat dengan konsep sederhana tapi tetap menarik, supaya tidak hanya menampilkan biodata biasa, tetapi juga terlihat lebih modern dan interaktif.
+Website ini merupakan tugas kelompok untuk mata kuliah Pemrograman Web. Project ini dibuat dalam bentuk website profil kelompok yang menampilkan anggota tim, deskripsi singkat tentang masing-masing anggota, serta project utama kelompok. Website ini kami buat dengan konsep sederhana tapi tetap menarik, supaya tidak hanya menampilkan biodata biasa, tetapi juga terlihat lebih modern dan interaktif.
 
 ## Isi Website
 Di dalam website ini terdapat beberapa bagian, yaitu:
-- **Beranda** → menampilkan identitas kelompok sebagai creative team
-- **Tim Kami** → menampilkan foto anggota kelompok
-- **Tentang Kami** → berisi deskripsi singkat setiap anggota dalam bentuk carousel
-- **Project** → menampilkan project utama kelompok yaitu **Sibuba (Si Bumil & Balita)**
+- **Beranda**       : menampilkan identitas kelompok sebagai creative team
+- **Tim Kami**      : menampilkan foto anggota kelompok
+- **Tentang Kami**  : berisi deskripsi singkat setiap anggota dalam bentuk carousel
+- **Project**       : menampilkan project utama kelompok yaitu **Sibuba (Si Bumil & Balita)**
 
 ## Tentang Project Utama
 Project yang ditampilkan pada website ini adalah:
