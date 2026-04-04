@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
     color: #333;
     overflow-x: hidden;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 body::before {
@@ -242,6 +244,7 @@ body::before {
     transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
     will-change: transform;
     padding: 0 20px;
+    touch-action: pan-y;
 }
 .kartu-anggota {
     min-width: calc(60% - 24px);
@@ -426,6 +429,17 @@ body::before {
     margin-top: 0;
 }
 
+.muncul {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: all 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.muncul.aktif {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 @media (max-width: 768px) {
     .navigasi {
         padding: 20px 40px;
@@ -485,4 +499,56 @@ body::before {
     
     .kartu-sibuba { flex-direction: column; max-width: 350px; }
     .sibuba-visual { height: 200px; flex: none; }
+}
+@media (max-width: 480px) {
+    .judul-beranda {
+        font-size: 28px;
+    }
+
+    .subjudul-beranda {
+        font-size: 14px;
+    }
+
+    .konten-beranda {
+        padding: 0 10px;
+    }
+
+    .judul-sub {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .grid-profil {
+        gap: 20px;
+    }
+
+    .kartu-profil {
+        width: 120px;
+    }
+
+    .wadah-foto {
+        width: 120px;
+        height: 120px;
+    }
+
+    .kartu-anggota {
+        min-width: 90%;
+        padding: 20px;
+    }
+
+    .nama-anggota {
+        font-size: 18px;
+    }
+
+    .deskripsi-anggota {
+        font-size: 12px;
+    }
+
+    .sibuba-konten {
+        padding: 20px;
+    }
+
+    .nama-project {
+        font-size: 22px;
+    }
 }
