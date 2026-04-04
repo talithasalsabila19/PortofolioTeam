@@ -3,7 +3,6 @@
 ## Tentang Project
 Website ini merupakan tugas kelompok untuk mata kuliah Pemrograman Web.  
 Project ini dibuat dalam bentuk website profil kelompok yang menampilkan anggota tim, deskripsi singkat tentang masing-masing anggota, serta project utama kelompok.
-
 Website ini kami buat dengan konsep sederhana tapi tetap menarik, supaya tidak hanya menampilkan biodata biasa, tetapi juga terlihat lebih modern dan interaktif.
 
 ## Isi Website
@@ -43,7 +42,6 @@ Beberapa fitur yang ada di website ini:
 
 ## Cara Menjalankan
 Cukup buka file `index.html` di browser.
-
 Kalau menggunakan VS Code, bisa juga pakai extension **Live Server** agar lebih mudah.
 
 ## Kesimpulan
